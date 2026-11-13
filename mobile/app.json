@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Everyday AI Concierge",
+    "slug": "everyday-ai-mobile",
+    "version": "1.0.0-mvp",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.everydayai.concierge",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.everydayai.concierge",
+      "versionCode": 1
+    }
+  }
+}

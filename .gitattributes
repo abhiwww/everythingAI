@@ -1,0 +1,12 @@
+# Normalise line endings so Windows and CI don't fight over CRLF.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+*.lock text eol=lf
+package-lock.json text eol=lf

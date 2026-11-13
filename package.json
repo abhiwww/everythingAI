@@ -1,0 +1,20 @@
+{
+  "name": "everyday-ai-concierge",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Chat-first local services and goods marketplace for Bengaluru — monorepo root",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "dev:mobile": "npm --prefix mobile run start",
+    "build:server": "npm --prefix server run build",
+    "build:web": "npm --prefix web run build",
+    "typecheck:server": "npm --prefix server run typecheck",
+    "typecheck:mobile": "npm --prefix mobile run typecheck",
+    "typecheck:web": "npm --prefix web run typecheck",
+    "typecheck": "npm run typecheck:server && npm run typecheck:mobile && npm run typecheck:web",
+    "test": "npm --prefix server test -- --runInBand --forceExit",
+    "seed:categories": "npm --prefix server run seed:categories",
+    "seed:demo": "npm --prefix server run seed:demo"
+  }
+}

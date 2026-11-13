@@ -1,0 +1,10 @@
+# Replace the handles below with real GitHub usernames/teams, then uncomment.
+# Until then this file is intentionally inert (comments only), so merges are not blocked.
+
+# *                       @your-handle
+# /server/                @backend-owner
+# /mobile/                @mobile-owner
+# /web/                   @web-owner
+# /migrations/            @backend-owner
+# /docs/                  @tech-writer
+# /.github/               @platform-owner
